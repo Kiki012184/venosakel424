@@ -28,38 +28,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-@media(max-width:768px) {
-  .mcnt {
-    width: 100%;
-  }
+.map-pin {
+  position: absolute;
+  font-size: 0.5rem;
+  padding: 0.1em 0.25em;
 }
-    .map-container {
-      position: relative;
-      border-radius: 1em;
-      width: 100%;
-      height: 60vh;
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Indonesia_Banyuwangi_Regency_location_map.svg/1250px-Indonesia_Banyuwangi_Regency_location_map.svg.png'); /* Replace with your map image path */
-      background-size: cover;
-      background-position: center;
-    }
-    .map-pin {
-      position: absolute;
-      font-size: 0.5em;
-      padding: 0.1em 0.25em;
-    }
-
-@media(min-width:650px) {
-}
-
 .yt-if {
   width: 100%;
   height: calc(100%/16*9);
 }
-
-/* Optional custom CSS for overlay fade-out */
-#loadingOverlay {
-  opacity: 1; /* Initial opacity */
-  z-index: 1000;
+.modp5 {
+  background-color: rgba(255,255,255,0.75);
+  color: var(--bs-dark);
+  border-radius: 0px;
+  border: 1px solid #fff;
 }
-
-/* Bootstrap's .d-none class will be used to hide the warning message */
