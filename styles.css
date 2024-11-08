@@ -23,7 +23,7 @@ body {
   position: relative;
   width: 100%;
   border:1px solid #000;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Indonesia_Banyuwangi_Regency_location_map.svg/1250px-Indonesia_Banyuwangi_Regency_location_map.svg.png');
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/16/Indonesia_Banyuwangi_Regency_location_map.svg');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
